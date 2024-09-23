@@ -84,7 +84,7 @@ def validate_move(fen, move):
     board = chess.Board(fen)
     return chess.Move.from_uci(move) in board.legal_moves
 
-@app.route('/get_best_move', methods=['GET', 'POST'])
+@app.route('/get_best_move', methods=['POST'])
 def get_best_move():
     """
     Handle a request to the /get_best_move endpoint.

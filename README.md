@@ -46,4 +46,5 @@ To use the API, send a POST request to the `/get_best_move` endpoint with a JSON
 }
 
 ### requirements
------------------
+_________________
+yes

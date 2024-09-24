@@ -46,10 +46,11 @@ To use the API, send a POST request to the `/get_best_move` endpoint with a JSON
 
 ## requirements
 _________________
-• Python 3.7+
-• Flask
-• pyhton-chess
-• Stockfish chess engine
+
+* Python 3.7+
+* Flask
+* pyhton-chess
+* Stockfish chess engine
 
 ## Installation
 _________________

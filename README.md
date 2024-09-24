@@ -37,6 +37,7 @@ To use the API, send a POST request to the `/get_best_move` endpoint with a JSON
 {
   "fen": "rnbqkbnr/ppp2ppp/8/8/8/8/PPPP2PPP/RNBQKBNR"
 }
+```
 
 ### Example Response
 

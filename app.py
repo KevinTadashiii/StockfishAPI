@@ -41,8 +41,12 @@ class StockfishEngine:
         """
         if sys.platform == 'win32':
             return 'Engine/stockfish windows.exe'
-        else:
+        elif sys.platform.startswith('linux'):
             return 'Engine/stockfish linux'
+        elif sys.platform.startswith('arm'):
+            return 'Engine/stockfish arm'
+        else:
+            raise OSError("Unsupported platform")
 
     def get_best_move(self, fen):
         """

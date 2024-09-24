@@ -1,5 +1,4 @@
 # Stockfish API
-=====================================
 
 A simple API interface for the Stockfish chess engine.
 

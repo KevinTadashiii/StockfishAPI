@@ -76,4 +76,4 @@ Pull requests and contributions are welcome. Please submit a pull request with y
 
 ## License
 -----------
-This project is licensed under the MIT License. See [LICENSE](#license) for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
